@@ -19,7 +19,7 @@
 }
 .ourservice{
 	padding: 100px 0px 60px;
-	height: 700px;
+	height: 500px;
 }
 .ourservice h1{
 	font-size: 50px;
@@ -58,6 +58,48 @@
 }
 .ourteam{
 	height: 700px;
-	padding: 300px 0px 50px;
+	padding: 100px 0px 50px;
 	width: 100%;
+}
+@media(min-width: 992px)
+{
+
+}
+@media(min-width: 768px) and (max-width: 991px)
+{
+	.headerset h2{
+		font-size: 32px;
+	}
+	.headerset h1{
+		font-weight: bold;
+		font-size: 72px;
+	}
+}
+@media(min-width: 575px) and (max-width:767px )
+{
+	
+}
+@media(min-width: 480px) and (max-width: 574px)
+{
+	
+}
+@media(min-width: 479px)
+{
+.headerset h2{
+font-size: 22px
+}	
+.headerset h1{
+	font-weight: bold;
+	font-size:32px;
+
+}
+.ourservice{
+	height: 1200px;
+}
+.portfolio{
+	height: 2600px;
+}
+/* .portfolio{
+	height: 2600px;
+} */
 }
