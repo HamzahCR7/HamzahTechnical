@@ -83,7 +83,8 @@
 {
 	
 }
-@media(min-width: 479px)
+@media(min-width: 400px) and (max-width: 479)
+@media(min-width: 399px)
 {
 .headerset h2{
 font-size: 22px
@@ -94,10 +95,10 @@ font-size: 22px
 
 }
 .ourservice{
-	height: 1200px;
+	height: 2000px;
 }
 .portfolio{
-	height: 2600px;
+	height: 3000px;
 }
 /* .portfolio{
 	height: 2600px;
