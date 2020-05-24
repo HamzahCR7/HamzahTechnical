@@ -122,6 +122,43 @@ cursor: pointer;
 }
 .footer{
 	font-size: 50px;
+	background: #000;
+	padding: 50px 0 0;
+}
+.sci{
+	margin: 0;
+	padding: 0;display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sci li{
+	list-style: none;
+	margin-top: 0 20px;
+	width: 40px;
+}
+.sci li a{
+	color: #777;
+	font-size:2em;
+	transition: 0.5s;
+
+}
+.sci li a:hover{
+	color: #fff;
+}
+.footer .fa-facebook{
+	font-size: 20px;
+}
+.footer .fa-instagram{
+	font-size: 20px;
+}
+.footer .fa-twitter{
+	font-size: 20px;
+}
+.footer .fa-linkedin{
+	font-size: 20px;
+}
+.footer .fa-github{
+	font-size:20px;
 }
 .footer h6{
 	line-height: 50px;
