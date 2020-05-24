@@ -58,8 +58,73 @@
 }
 .ourteam{
 	height: 700px;
-	padding: 100px 0px 50px;
+	padding: 100px 0px 60px;
 	width: 100%;
+}
+.ourteam h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+.Contact{
+	width: 85%;
+	max-width:600px;
+	background:#f1f1f1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 30px 30px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	text-align: center;
+	box-shadow: 0 0 20px #000000b3;
+}
+.contact h1{
+	margin: 0;
+	font-weight: 300;
+}
+.txt
+{
+	border:1px solid gray;
+	margin: 8px 0;
+	padding: 12px 18px;
+	border-radius: 8px;
+}
+.txt label{
+	display: block;
+	text-align: left;
+	color: #333;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.txt input,.txt textarea{
+	width: 100%;
+	border:none;
+	background:none;
+	outline: none;
+	font-size: 18px;
+	margin-top: 6px;
+}
+.subm{
+	display: inline-block;
+	background:#9b59b6;
+	padding: 14px 0;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin-top: 8px;
+	width: 100%;
+
+}
+.subm:hover{
+background-color: #f44336;
+cursor: pointer;
+}
+.footer{
+	font-size: 50px;
+}
+.footer h6{
+	line-height: 50px;
 }
 @media(min-width: 992px)
 {
@@ -106,4 +171,7 @@ font-size: 22px
 /* .portfolio{
 	height: 2600px;
 } */
+.ourteam{
+	height: 1400px;
+}
 }
