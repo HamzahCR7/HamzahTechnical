@@ -6,6 +6,10 @@
 	height: 740px;
 
 }
+.navbar{
+	background: transparent;
+	background-color: transparent; 
+}
 .headerset{
 	padding-top: 350px;
 	box-sizing: border-box; 
@@ -123,7 +127,7 @@ cursor: pointer;
 .footer{
 	font-size: 50px;
 	background: #000;
-	padding: 50px 0 0;
+	padding: 30px 0 100px;
 }
 .sci{
 	margin: 0;
