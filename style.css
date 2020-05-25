@@ -145,6 +145,9 @@ cursor: pointer;
 .sci li a:hover{
 	color: #fff;
 }
+.footer h6:hover{
+color: #fff;
+}
 .footer .fa-facebook{
 	font-size: 20px;
 }
@@ -155,6 +158,9 @@ cursor: pointer;
 	font-size: 20px;
 }
 .footer .fa-linkedin{
+	font-size: 20px;
+}
+.footer .fa-twitter{
 	font-size: 20px;
 }
 .footer .fa-github{
@@ -211,4 +217,5 @@ font-size: 22px
 .ourteam{
 	height: 1400px;
 }
+
 }
