@@ -14,8 +14,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-	<section>
+
+<body onload="hammad()">
+<div id="loading"></div>
+<section>
 <div class="bgimg">
 	<nav class="navbar navbar-expand-md  bg-dark navbar-dark fixed-top">
 	<div class="container">
@@ -38,7 +40,7 @@
 	</div>
 </nav>
 <div class="container text-center headerset"id="home">
-	<h2 class="text-white">Welcome to Our Page</h2>
+	<h2 class="text-white animated infinite pulse">Welcome to Our Page</h2>
 	<h1 class="text-white">WE are always ready for your help</h1><br><br>
 	<button class="btn btn-warning text-white btn-lg" style="margin:50px"><a href="signup.html">Sign up</a></button>
 		<button class="btn btn-danger text-success btn-lg"><a href="signin.html" style="margin:5px"> Sign in</a></button>
@@ -234,5 +236,11 @@
 </div>	
 </footer>
 </section>
+<script type="text/javascript">
+	var preloadr=document.getElementById('loading');
+	function hammad(){
+		preloadr.style.display='none';
+	}
+</script>
 </body>
 </html>
