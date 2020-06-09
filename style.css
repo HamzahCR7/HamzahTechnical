@@ -26,6 +26,9 @@
 .ourservice{
 	padding: 100px 0px 60px;
 	height: 500px;
+	/* background-color: ; */
+		/* background-color: #d2dfff; */
+
 }
 .ourservice h1{
 	font-size: 50px;
@@ -54,15 +57,19 @@
 }
 .portfolio{
 	/* margin-top: 20px; */
+	/* background-color: #fffddd; */
 		height: 1100px;
 
 	padding: 100px 0px 50px;
 	width: 100%;
+		
+
 }
 .card{
 	margin-top :40px ;
 }
 .ourteam{
+	/* background-color:#bbbccc; */
 	height: 700px;
 	padding: 100px 0px 60px;
 	width: 100%;
@@ -71,7 +78,8 @@
 	font-size: 30px;
 	font-weight: bold;
 }
-.Contact{
+/* .Contact{
+	background-color: #cccddd;
 	width: 85%;
 	max-width:600px;
 	background:#f1f1f1;
@@ -84,7 +92,8 @@
 	border-radius: 8px;
 	text-align: center;
 	box-shadow: 0 0 20px #000000b3;
-}
+} */
+
 .contact h1{
 	margin: 0;
 	font-weight: 300;
@@ -215,13 +224,13 @@ font-size: 22px
 	height: 1200px;
 }
 .portfolio{
-	height: 2700px;
+	height: auto;
 }
 /* .portfolio{
 	height: 2600px;
 } */
 .ourteam{
-	height: 1400px;
+	height: 1500px;
 }
 
 }
